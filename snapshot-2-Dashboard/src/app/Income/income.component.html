@@ -1,0 +1,14 @@
+<div class="button-container">
+    <button (click)="onClickAddIncome()">+ Add Income</button>
+</div>
+
+@if (isAddIncome) {
+<app-income-input (close)="onClickCancel()"/>
+}
+
+<app-income-table />
+
+
+
+
+

@@ -1,0 +1,20 @@
+Dashboard
+- Overall income
+- Total expenses
+- remaining
+- Total no of transactions
+- Graph
+  - line graph - cash flow through months
+  - Bar graph - comparison between income and expense for each month
+  - pie chart - expenses in various categories
+
+Add transaction
+- get transaction detail
+
+Transactions
+- See image
+- filter - using categories, date, month etc
+
+Flourishes
+- want, need and desire
+- Expense limit for each category

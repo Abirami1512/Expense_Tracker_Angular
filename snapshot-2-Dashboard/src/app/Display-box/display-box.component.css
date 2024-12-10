@@ -1,0 +1,9 @@
+.box {
+  padding: 20px;                  /* Padding inside the box */
+  background-color: white;    /* Background color #f4f4f4;*/
+  border-radius: 5px;            /* Rounded corners */
+  text-align: center;             /* Center text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: #333;
+}
+

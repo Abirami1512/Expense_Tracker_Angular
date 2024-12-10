@@ -1,0 +1,16 @@
+
+<div class="sidebar">
+    <img src = "expense2.png" alt = "A wallet">
+    <h1>Expense Tracker</h1>
+    <br>
+    <ul>
+      <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+      <li><a routerLink="/expenses" routerLinkActive="active">Expenses</a></li>
+      <li><a routerLink="/incomes" routerLinkActive="active">Income</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet> <!-- Where routed components will be displayed -->
+  </div>
+
+

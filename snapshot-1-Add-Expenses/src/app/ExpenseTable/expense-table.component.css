@@ -1,0 +1,47 @@
+.expense-table-container {
+    margin: 20px auto;
+    width: 80%;
+    overflow-x: auto;
+    box-shadow:10px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    font-size: 16px;
+    text-align: left;
+    
+  }
+  
+  th, td {
+    padding: 12px;
+    
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  button {
+    background-color: #ff4d4d; 
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 14px; /* Font size */
+    border: none; /* No border */
+    border-radius: 50%; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    margin-bottom: 15px; /* Space below the button */
+  }
+
+  button:hover {
+    background-color: #e60000; /* Slightly darker green on hover */
+  }

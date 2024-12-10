@@ -1,0 +1,11 @@
+<div class="dashboard">
+    <div class="boxes-row">
+     <app-box  [value]="totalIncome" [desc]="values[0].text" [textColor]="values[0].color"></app-box>
+     <app-box  [value]="totalExpense" [desc]="values[1].text" [textColor]="values[1].color"></app-box>
+     <app-box  [value]="savings" [desc]="values[2].text" [textColor]="values[2].color"></app-box>
+     <app-box  [value]="transactions" [desc]="values[3].text" [textColor]="values[3].color"></app-box>
+    </div>
+
+    <app-charts />
+ </div>
+

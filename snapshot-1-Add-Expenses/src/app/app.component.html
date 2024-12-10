@@ -1,0 +1,10 @@
+<app-header /> 
+<div class="button-container">
+    <button (click)="onClickAddExpense()">+ Add Expense</button>
+</div>
+
+@if (isAddExpense) {
+<app-user-input (close)="onClickCancel()"/>
+}
+
+<app-expense-table />
